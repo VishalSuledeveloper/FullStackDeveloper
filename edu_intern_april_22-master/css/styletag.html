@@ -1,0 +1,92 @@
+<html>
+    <head>
+        <title>Inline Css</title>
+        <style>
+            #header{
+                height:60px;
+                width:100%;
+                background-color:rgb(231, 223, 82)
+            }
+           h1{
+              text-align:center;
+               color:red;
+           } 
+           h2{
+               text-align:center;
+               color:white
+           }
+           #main{
+                display: inline-block
+           }
+           
+           .card{
+                height:400px;
+                width:22%;
+                background-color:#458db3;
+                float:left;
+                margin-left:2%;
+                color:#fff;
+                overflow:scroll
+           }
+           .brown{
+                background-color:#9c898c;
+           }
+           #skyblue{
+            background-color:#1b638a;
+           }
+           .badge{
+            background-color:#ac9a8b
+           }
+           .card > img {
+            height:200px;
+            width:100%
+           }
+           footer{
+               text-align: center;
+           }
+        </style>
+    </head>
+    <body>
+        <div id="header">
+            <h1>Cities</h1>
+        </div>
+        <hr/>
+        <div id="main">
+            <div class="card">
+                <img src="image/manali.jpeg" alt="manali"/>
+                <h2>Manali</h2>
+                <p>
+                    Manali is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged
+                </p>
+            </div>
+            <div class="card brown">
+                <img src="image/amsterdam.jpeg" alt="amsterdam" />
+                <h2>Amsterdam</h2>
+                <p>
+                    Amsterdam is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged
+                </p>
+            </div>
+            <div class="card badge">
+                <img src="image/london.jpeg" alt="london" />
+                <h2>London</h2>
+                <p>
+                    London is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged
+                </p>
+            </div>
+            <div class="card" id="skyblue">
+                <img src="image/helsinki.jpeg" alt="helsinki"/>
+                <h2>Helsinki</h2>
+                <p>
+                    Helsinki is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged
+                </p>
+            </div>
+        </div>
+        <hr/>
+        <footer>
+            <h2>
+                &copy; Developer Funnel 
+            </h2>
+        </footer>
+       
+    </body>
+</html>
